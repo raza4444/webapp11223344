@@ -27,7 +27,6 @@
     <splash qualifier="port-hdpi" src="res/screen/android/drawable-port-hdpi-screen.png" />
     <splash qualifier="port-xhdpi" src="res/screen/android/drawable-port-xhdpi-screen.png" />
     <splash qualifier="port-xxhdpi" src="res/screen/android/drawable-port-xxhdpi-screen.png" />
-        <splash qualifier="port-xxxhdpi" src="res/screen/android/drawable-port-xxxhdpi-screen.png" />
     <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
