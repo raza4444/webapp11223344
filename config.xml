@@ -16,15 +16,16 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
-    <splash src="res/screen/android/drawable-land-hdpi-screen.png" density="land-hdpi"/>
-    <splash src="res/screen/android/drawable-land-ldpi-screen.png" density="land-ldpi"/>
-    <splash src="res/screen/android/drawable-land-mdpi-screen.png" density="land-mdpi"/>
-    <splash src="res/screen/android/drawable-land-xhdpi-screen.png" density="land-xhdpi"/>
+    <splash qualifier="land-hdpi" src="res/screen/android/drawable-land-hdpi-screen.png" />
+    <splash qualifier="land-ldpi" src="res/screen/android/drawable-land-ldpi-screen.png" />
+    <splash qualifier="land-mdpi" src="res/screen/android/drawable-land-mdpi-screen.png" />
+    <splash qualifier="land-xhdpi" src="res/screen/android/drawable-land-xhdpi-screen.png" />
 
-    <splash src="res/screen/android/drawable-port-hdpi-screen.png" density="port-hdpi"/>
-    <splash src="res/screen/android/drawable-port-ldpi-screen.png" density="port-ldpi"/>
-    <splash src="res/screen/android/drawable-port-mdpi-screen.png" density="port-mdpi"/>
-    <splash src="res/screen/android/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
+    <splash qualifier="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
+    <splash qualifier="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
+    <splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
+    <splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
+    <splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
     <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
@@ -53,6 +54,7 @@
     <preference name="ShowSplashScreenSpinner" value="false" /> 
     <preference name="FadeSplashScreenDuration" value="400" /> 
     <preference name="SplashScreenBackgroundColor" value="white" /> 
+
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
     <plugin name="cordova-plugin-network-information" spec="^1.3.3" />
