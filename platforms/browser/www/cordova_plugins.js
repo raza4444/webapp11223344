@@ -75,6 +75,14 @@ module.exports = [
         "id": "cordova-plugin-splashscreen.SplashScreenProxy",
         "pluginId": "cordova-plugin-splashscreen",
         "runs": true
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+        "id": "onesignal-cordova-plugin.OneSignal",
+        "pluginId": "onesignal-cordova-plugin",
+        "clobbers": [
+            "OneSignal"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -85,7 +93,8 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.3.3",
     "cordova-plugin-actionsheet": "2.3.3",
     "cordova-plugin-spinner-dialog": "1.3.1",
-    "cordova-plugin-splashscreen": "5.0.4"
+    "cordova-plugin-splashscreen": "5.0.4",
+    "onesignal-cordova-plugin": "2.10.1"
 }
 // BOTTOM OF METADATA
 });

@@ -1,11 +1,16 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "DenEvents",
-  "short_name": "DenEvents",
-  "version": "com.example.hello",
-  "description": "Discover trending events in Denmark",
-  "author": "DustHQ",
-  "icons": [],
+  "name": "Improvize",
+  "short_name": "Improvize",
+  "version": "com.improvize.app",
+  "author": "Muhammad Raza",
+  "icons": [
+    {
+      "src": "res/icon/android/drawable.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html"
 }
